@@ -1,7 +1,7 @@
 version: '3.8'
 services:
    newyear:
-      image: newimg:2
+      image: newimg:$BUILD_TAG
       ports:
         - "8080:80"
       container_name: yearimg
