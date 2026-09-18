@@ -1,9 +1,9 @@
 version: '3.8'
 services:
    newyear:
-      image: newimg:$BUILD_TAG
+      image: myapp:latest
       ports:
-        - "8080:80"
+        - "80:80"
       container_name: yearimg
       restart: always
            
